@@ -1,0 +1,142 @@
+@font-face{ font-family: 'Noto Sans KR', sans-serif;
+  src: local(Noto Sans KR)
+  url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+}
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+body, html{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  z-index: 2;
+  width: 100%;
+  height: 94px;
+  background-color: #E3EAEF;
+  display: flex;
+  justify-content: center;
+  position: fixed
+}
+
+nav {
+  width: 1280px;
+  height: 100px;
+}
+
+nav img{
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 26px;
+  float: left;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0 60px 0 0;
+}
+
+nav ul li {
+  padding: 0;
+  margin: 0;
+  display: block;
+  float: right;
+}
+
+nav ul li a{
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  color: #464646;
+  text-decoration: none;
+  padding: 45px 25px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+section{
+  max-width: 100%;
+  z-index: 1;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.cam{
+  margin-top: 240px;
+  width: 1920px;
+  height: 486px;
+  background-color: #C5DDDC;
+}
+
+.camtitle{
+  text-align: center;
+  position: relative;
+  font-size: 32px;
+  font-weight: 600;
+  top: -20%;
+}
+
+.cam01{
+  text-align: center;
+  display : block ;
+  margin : 0 auto ;
+  letter-spacing: 145px;
+}
+
+.com{
+  margin-top: 214px;
+  width: 1920px;
+  height: 486px;
+}
+
+.comtitle{
+  text-align: center;
+  position: relative;
+  font-size: 32px;
+  font-weight: 600;
+  top: -7%;
+}
+
+.com01{
+  text-align: center;
+  display : block ;
+  margin : -22% ;
+  letter-spacing: 145px;
+}
+
+.exh{
+  margin-top: 370px;
+  width: 1920px;
+  height: 650px;
+  background-color: #6B8CAC;
+}
+
+.exhtitle{
+  text-align: center;
+  position: relative;
+  font-size: 32px;
+  font-weight: 600;
+  top: -17%;
+}
+
+.exh01{
+  text-align: center;
+  display : block ;
+  margin : 0 auto ;
+  letter-spacing: 145px;
+}
+
+footer{
+  display: block;
+  width: 1920px;
+  height: 100px;
+  background-color: #6B8CAC;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
